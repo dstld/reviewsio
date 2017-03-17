@@ -1,7 +1,7 @@
 require "reviewsio/version"
 require "httparty"
 
-module ReviewsIO
+module Reviewsio
   class Client
     include HTTParty
     format :json

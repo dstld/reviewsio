@@ -5,7 +5,7 @@ require 'reviewsio/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "reviewsio"
-  spec.version       = ReviewsIO::VERSION
+  spec.version       = Reviewsio::VERSION
   spec.authors       = ["Aaron Lifton"]
   spec.email         = ["aaronlifton@gmail.com"]
 
