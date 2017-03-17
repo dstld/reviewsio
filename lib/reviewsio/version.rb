@@ -1,3 +1,3 @@
-module Reviewsio
-  VERSION = "0.0.4"
+module ReviewsIO
+  VERSION = "0.0.5"
 end
