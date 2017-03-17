@@ -21,10 +21,7 @@ module ReviewsIO
     def post(path, data)
       self.class.post(
         path,
-        body: data.merge({
-          store: self.class.store,
-          apikey: self.class.api_key
-          })
+        body: data
         )
     end
 
