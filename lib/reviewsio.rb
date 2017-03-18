@@ -13,6 +13,7 @@ module ReviewsIO
     end
 
     API_URL = "https://api.reviews.co.uk"
+    base_uri API_URL
 
     def serializer
       self.class.serializer
@@ -25,8 +26,8 @@ module ReviewsIO
         )
     end
 
-    def insert_review(line_item)
-      post("/product/review/new", serializer.new(line_item))
+    def insert_review(line_item_params)
+      post("/product/review/new", serializer.new(line_item_params))
     end
 
   end
