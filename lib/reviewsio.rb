@@ -27,8 +27,7 @@ module ReviewsIO
     end
 
     def insert_review(line_item_params)
-      post("/product/review/new", serializer.new(line_item_params).to_json)
+      post("/product/review/new", serializer.new(line_item_params).as_json)
     end
-
   end
 end
