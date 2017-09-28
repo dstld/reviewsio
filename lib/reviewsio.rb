@@ -28,7 +28,7 @@ module ReviewsIO
     def default_params
       {
         store: self.class.store,
-        api_key: self.class.api_key
+        apikey: self.class.api_key
       }
     end
 
